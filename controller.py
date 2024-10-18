@@ -39,7 +39,7 @@ class ChatbotController:
         """
         with gr.Blocks(css=GRADIO_CSS) as demo:
             gr.Markdown(CHATBOT_NAME, elem_id=GRADIO_TITLE_ELEMENT_ID)
-            chatbot = gr.Chatbot(elem_id="chatbox", height=800)
+            chatbot = gr.Chatbot(elem_id="chatbox", height=600)
 
             with gr.Row(visible=True):
                 with gr.Column():
