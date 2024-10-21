@@ -86,6 +86,9 @@ class ChatbotController:
 
 
 if __name__ == '__main__':
-    llm_identifier = sys.argv[0]
-    model_name = sys.argv[1]
-    ChatbotController(llm_identifier, model_name).run()
+    try:
+        llm_identifier = sys.argv[0]
+        model_name = sys.argv[1]
+        ChatbotController(llm_identifier, model_name).run()
+    except IndexError:
+        print("Provide the LLM identifier and model name as command line arguments.")
