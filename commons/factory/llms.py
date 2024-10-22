@@ -11,4 +11,4 @@ def llm_factory(llm_identifier: str):
     llms = {
         "openai": OpenAiLLM
     }
-    return llms.get(llm_identifier) or OpenAiLLM
+    return llms.get(llm_identifier)
