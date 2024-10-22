@@ -11,3 +11,5 @@ class OpenAiModel(Enum):
 
 CHAT_BOT_INITIAL_PROMPT = """
 """
+
+EMPLOYEE_HANDBOOK_PATH = "./static/pdfs/employee_handbook_2024.pdf"
