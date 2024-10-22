@@ -2,3 +2,4 @@
 flagged/
 *.env
 *.pdf
+chroma/

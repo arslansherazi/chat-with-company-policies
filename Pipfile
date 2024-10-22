@@ -11,6 +11,8 @@ python-dotenv = "*"
 langchain-community = "*"
 singleton-decorator = "*"
 langchain-openai = "*"
+pypdf = "*"
+chromadb = "*"
 
 [dev-packages]
 
